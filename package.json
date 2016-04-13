@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "name": "language-webidl",
+  "description": "Atom language support for WebIDL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izgzhen/language-webidl.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.10.1"
+  }
+}

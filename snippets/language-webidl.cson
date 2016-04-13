@@ -1,0 +1,10 @@
+'.source.webidl':
+  'Typedef':
+    'prefix': 'td'
+    'body': 'typedef ${1:int} ${2:MyCustomType};'
+  'dictionary':
+    'prefix': 'dict'
+    'body': 'dictionary ${1:name_t} {\n\t${2:/* data */}\n};'
+  'void':
+    'prefix': 'void'
+    'body': 'void ${1:name}(${2:/* arguments */}) {\n\t${3:/* code */}\n}'
